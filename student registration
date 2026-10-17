@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor="lightblue">
+        <Center><h2>Student Registration Form </h2>
+    <p>Please fill this form with accurate information.........</p></Center> <br><br>
+
+    <form action="https://formspree.io/f/xdealqke" method="POST">
+    >
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+
+            <label>Student Name :-</lable>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+
+            <label>D.O.B:-</label>
+            <input type="Date" placeholder="Enter Your D.O.B"><br><br>
+
+            <label>Father's Name:- </label>
+            <input type="text" placeholder="Enter Your Father name"><br><br>
+
+            <label>Mother's Name:-</label>
+            <input type="text" placeholder="Enter Your Mother Name"><br><br>
+
+            <label>Sibling Name:-</label>
+            <input type="text" placeholder="Enter Your Sibling Name"><br><br>
+            
+            <label >Gender:-</label>
+            <input type="Radio" name="Gender">Male
+            <input type="Radio" name="Gender">Female
+            <input type="Radio" name="Gender">Other
+           
+
+        </fieldset><br><br>
+      <fieldset>
+        <legend><b>Student Detail's</b></legend>
+
+        <label>Student Email Id:-</label>
+        <input type="Email" placeholder="Enter Your Email Id"><br><br>
+
+        <label> Contact No:-</label>
+        <input type="tel" placeholder="Enter Your Contact Number"><br><br>
+
+        <label>Address:-</label>
+        <textarea  rows="4"  cols="40"  placeholder="Enter your Address"></textarea>
+      </fieldset> <br><br>
+
+      <fieldset>
+        <legend><b>Acadmic Detail's</b></legend>
+
+        <label>Max.Edu:-</label>
+        <select  place>
+            <option value="">Enter Your Qualifiation</option>
+            <option value="">12</option>
+            <option value="">11</option>
+            <option value="">10</option>
+            <option value="">9</option>
+            <option value="">8</option>
+        </select><br><br>
+
+       <label>Favourate Subject:-</label>
+       <input type="text" placeholder="Enter Your Fav Subject"><br><br>
+
+       <label>Skill And Intrest:-</label><br>
+       <input type="checkbox">Computer <br>
+       <input type="checkbox">Painting <br>
+       <input type="checkbox">Fighting <br>
+       <input type="checkbox">Singing <br>
+       <input type="checkbox">Nothing <br>
+
+      </fieldset>
+
+      <fieldset>
+        <legend><b>Account Detail's</b></legend>
+
+        <label>User Name:-</label>
+        <input type="text" placeholder="Enter Your User Name"><br><br>
+
+       <label>Password:-</label>
+       <input type="text" placeholder="Enter Your Password"><br><br>
+
+       <input type="submit" value="clear">
+       <input type="Reset">
+       <input type="submit">
+
+
+      </fieldset>
+      
+
+
+
+    </form>
+    
+</body>
+</html>
